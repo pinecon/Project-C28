@@ -96,8 +96,8 @@ function mouseDragged()
 	Matter.Body.setPosition
      (stone.body, {x:mouseX, y:mouseY}) 
 
-//	Matter.Body.Position
-//      (stone.body, {x:mouseX, y:mouseY}) 
+	Matter.Body.Position
+     (stone.body, {x:mouseX, y:mouseY}) 
 
 //	Matter.Body.setPosition
 //      ({x:mouseX, y:mouseY}) 
